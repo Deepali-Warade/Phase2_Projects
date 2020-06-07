@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="190" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="129" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+      <class name="com.Annotations.TestAnnotations2">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.Annotations.TestAnnotations2@78c03f1f]" name="Login" duration-ms="2" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="AccountEnquiry()[pri:0, instance:com.Annotations.TestAnnotations2@78c03f1f]" name="AccountEnquiry" duration-ms="3" started-at="2020-06-06T17:56:14 UTC" depends-on-methods="com.Annotations.TestAnnotations2.Login" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountEnquiry -->
+        <test-method status="PASS" signature="FundTransfer()[pri:0, instance:com.Annotations.TestAnnotations2@78c03f1f]" name="FundTransfer" duration-ms="3" started-at="2020-06-06T17:56:14 UTC" depends-on-methods="com.Annotations.TestAnnotations2.Login" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FundTransfer -->
+      </class> <!-- com.Annotations.TestAnnotations2 -->
+      <class name="com.Annotations.TestAnnotations3">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.Annotations.TestAnnotations3@5ec0a365]" name="Login" duration-ms="3" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="AccountEnquiry()[pri:1, instance:com.Annotations.TestAnnotations3@5ec0a365]" name="AccountEnquiry" duration-ms="3" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountEnquiry -->
+        <test-method status="PASS" signature="FundTransfer()[pri:2, instance:com.Annotations.TestAnnotations3@5ec0a365]" name="FundTransfer" duration-ms="2" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FundTransfer -->
+      </class> <!-- com.Annotations.TestAnnotations3 -->
+      <class name="com.Annotations.TestAnnotations">
+        <test-method status="PASS" signature="AccountEnquiry()[pri:0, instance:com.Annotations.TestAnnotations@5ce81285]" name="AccountEnquiry" duration-ms="16" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountEnquiry -->
+        <test-method status="PASS" signature="FundTransfer()[pri:0, instance:com.Annotations.TestAnnotations@5ce81285]" name="FundTransfer" duration-ms="3" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FundTransfer -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.Annotations.TestAnnotations@5ce81285]" name="Login" duration-ms="3" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- com.Annotations.TestAnnotations -->
+    </test> <!-- Smoke -->
+    <test name="Reg" duration-ms="12" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+      <class name="com.testannotations.TestAnnotations11">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="Test1" duration-ms="1" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="Test2" duration-ms="1" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="AfterTest" is-config="true" duration-ms="0" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testannotations.TestAnnotations11@5c5a1b69]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-06-06T17:56:14 UTC" finished-at="2020-06-06T17:56:14 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testannotations.TestAnnotations11 -->
+    </test> <!-- Reg -->
+  </suite> <!-- Suite -->
+</testng-results>
