@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class TestAnnotations2
 {
 	@Test(priority=0)	
-	public void Login() {
+	public void Login() throws Exception {
 		System.out.println("Test1 Executed");
 	}
 	@Test(dependsOnMethods="Login")	
